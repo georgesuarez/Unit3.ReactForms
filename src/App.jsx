@@ -10,7 +10,7 @@ function App() {
       <SignUpForm token={token} setToken={setToken} />
       <Authenitcate token={token} setToken={setToken} />
    </>
-  )
+  );
 }
 
 export default App

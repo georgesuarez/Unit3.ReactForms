@@ -19,7 +19,7 @@ export default function Authenitcate({ token }) {
                 }
             );
 
-            const result = response.json();
+            const result = await response.json();
             setSuccessMessage(result.message);
         } catch (error) {
             setError(error.message);
